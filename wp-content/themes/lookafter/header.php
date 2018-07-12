@@ -17,6 +17,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+                <li><a href="<?php echo get_permalink(get_page_by_path('Cart')) ?>">Cart</a></li>
             </ul>
         </div>
     </nav>
