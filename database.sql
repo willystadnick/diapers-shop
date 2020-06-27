@@ -395,7 +395,7 @@ CREATE TABLE `wp_users` (
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'admin','$P$B3cWy9KO9b5bw6fhiKE4je83DWkC6X/','admin','willy.stadnick@gmail.com','','2018-07-12 21:19:35','',0,'admin');
+INSERT INTO `wp_users` VALUES (1,'admin','$P$B3cWy9KO9b5bw6fhiKE4je83DWkC6X/','admin','admin@anon.mail','','2018-07-12 21:19:35','',0,'admin');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 
